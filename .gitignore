@@ -1,0 +1,9 @@
+GameScene/Intermediate
+GameScene/Build
+GameScene/Binaries
+GameScene/DerivedDataCache
+GameScene/Saved
+GameScene/Content/StarterContent/
+GameScene/Content/
+
+*.db
