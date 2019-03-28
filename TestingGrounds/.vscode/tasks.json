@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "TestingGrounds Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win32",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"Win64",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Shipping",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGrounds HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGrounds HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGrounds",
+				"HTML5",
+				"Test",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGroundsEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"Debug",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGroundsEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TestingGroundsEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		},
+		{
+			"label": "TestingGroundsEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"TestingGroundsEditor",
+				"Win64",
+				"Development",
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "F:\\Epic Games\\UE_4.21"
+			}
+		}
+	]
+}

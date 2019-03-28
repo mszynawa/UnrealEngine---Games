@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "TestingGrounds (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TestingGrounds Win64 Debug Build",
+			"program": "D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\Binaries\\Win64\\TestingGrounds-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGrounds (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TestingGrounds Win64 DebugGame Build",
+			"program": "D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\Binaries\\Win64\\TestingGrounds-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGrounds (Development)",
+			"request": "launch",
+			"preLaunchTask": "TestingGrounds Win64 Development Build",
+			"program": "D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\Binaries\\Win64\\TestingGrounds.exe",
+			"args": [
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGrounds (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "TestingGrounds Win64 Shipping Build",
+			"program": "D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\Binaries\\Win64\\TestingGrounds-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGrounds (Test)",
+			"request": "launch",
+			"preLaunchTask": "TestingGrounds Win64 Test Build",
+			"program": "D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\Binaries\\Win64\\TestingGrounds-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGroundsEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TestingGroundsEditor Win64 Debug Build",
+			"program": "F:\\Epic Games\\UE_4.21\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject"
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGroundsEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TestingGroundsEditor Win64 DebugGame Build",
+			"program": "F:\\Epic Games\\UE_4.21\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject"
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TestingGroundsEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "TestingGroundsEditor Win64 Development Build",
+			"program": "F:\\Epic Games\\UE_4.21\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject"
+			],
+			"cwd": "F:\\Epic Games\\UE_4.21",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\Epic Games\\UE_4.21\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "F:\\Epic Games\\UE_4.21\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\[GIT] Repositories\\UnrealEngine-Games\\UnrealEngine-Games\\TestingGrounds\\TestingGrounds.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "F:\\Epic Games\\UE_4.21"
+		}
+	]
+}

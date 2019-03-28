@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"D:/[GIT] Repositories/UnrealEngine-Games/UnrealEngine-Games/TestingGrounds/.vscode": true,
+		"D:/[GIT] Repositories/UnrealEngine-Games/UnrealEngine-Games/TestingGrounds/Content": true,
+		"D:/[GIT] Repositories/UnrealEngine-Games/UnrealEngine-Games/TestingGrounds/Intermediate": true,
+		"D:/[GIT] Repositories/UnrealEngine-Games/UnrealEngine-Games/TestingGrounds/Saved": true
+	}
+}
